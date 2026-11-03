@@ -20,8 +20,8 @@ git clone https://github.com/RainDrop3-skills/pdf2html.git ~/.claude/skills/pdf2
 ```
 
 ```powershell
-# Windows: 다른 위치에 받아 두고 junction으로 연결
-New-Item -ItemType Junction -Path "$env:USERPROFILE\.claude\skills\pdf2html" -Target "<받은 폴더 경로>"
+# Windows PowerShell
+git clone https://github.com/RainDrop3-skills/pdf2html.git "$env:USERPROFILE\.claude\skills\pdf2html"
 ```
 
 필요한 것
